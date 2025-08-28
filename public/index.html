@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>News App</title>
+</head>
+<body>
+  <h2>Submit News</h2>
+  <form id="newsForm">
+    <input type="text" id="title" placeholder="Title" required />
+    <textarea id="content" placeholder="Content" required></textarea>
+    <select id="category" required>
+      <option value="">Select Category</option>
+      <option value="Tech">Tech</option>
+      <option value="Politics">Politics</option>
+    </select>
+    <input type="url" id="source_url" placeholder="Source URL" required />
+    <button type="submit">Submit</button>
+  </form>
+
+  <h2>News List</h2>
+  <div id="newsList"></div>
+  <button id="prevBtn">Previous</button>
+  <button id="nextBtn">Next</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
