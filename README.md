@@ -33,3 +33,6 @@ news-app/
 │   └── newsController.js
 ├── server.js
 └── README.md
+
+All project files are pushed to the origin branch. To view them, switch to the origin branch using the branch dropdown on GitHub or run git checkout origin locally.
+
